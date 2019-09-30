@@ -139,7 +139,14 @@ let lastName = "Appleseed"
 
 // enter code below
 ```
+ANSWER
+```
+let firstName = "John"
+let lastName = "Appleseed"
 
+let fullName = ("The fellow's full name is \(firstName) \(lastName)")
+print(fullName)
+```
 ***
 
 ## Question 7
@@ -158,7 +165,19 @@ if temperatureInFahrenheit <= 40 {
 //Re-written statement here
 
 ```
+ANSWER
+```
+var tempInFahrenheit = 40
 
+switch tempInFahrenheit {
+case 0...40:
+    print("It is cold!")
+case 85...100:
+    print("It is hot!")
+    default:
+print("weather is neither hot or cold")
+}
+```
 ***
 
 ## Question 8
@@ -169,6 +188,17 @@ Complete the following code so that "You win!" is printed.
 if {
  print("You win!")
 } 
+else {
+ print("You lose!")
+}
+```
+ANSWER
+```
+let randomNum = 4
+
+if randomNum % 2 == 0{
+ print("You win!")
+}
 else {
  print("You lose!")
 }
@@ -199,6 +229,29 @@ Output:
 Error
 
 ```
+ANSWER
+```
+var numberOfSides = 4
+switch numberOfSides {
+case 3:
+    print("Triangle")
+case 4:
+    print("Square")
+case 5:
+    print("Pentagon")
+case 6:
+    print("Hexagon")
+case 7:
+    print("Heptagon")
+case 8:
+    print("Octagon")
+case 9:
+    print("Nonagon")
+case 10:
+    print("Decagon")
+default:
+    print("Error!")
+    ```
 ***
 
 ## Question 10
