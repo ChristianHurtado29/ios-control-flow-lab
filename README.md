@@ -28,7 +28,7 @@ if conditionTwo {
 print("D")
 ```
 
-- A
+- A !
 - B
 - C
 - D
@@ -51,7 +51,7 @@ switch appInfo {
 ```
 
 - appInfo.0 hasn't released yet
-- myCoolApp hasn't released yet
+-(Y) myCoolApp hasn't released yet
 - Thanks for looking at myCoolApp!
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
@@ -76,7 +76,7 @@ default:
 ```
 
 - A
-- B
+- (Y) B
 - C
 - D
 
@@ -100,7 +100,7 @@ case "snickers":
 
 - No parentheses around the conditions
 - No opening and closing brackets in each of the cases
-- No default case in the switch statement
+- (Y) No default case in the switch statement
 - No print statement right outside the switch statement
 
 ***
@@ -113,7 +113,21 @@ let currentWeather = "rain"
 
 // enter code below
 ```
-
+ANSWER 
+```
+swift
+let currentWeather = "rain"
+switch currentWeather {
+case "sunny":
+    print("Today it is \(currentWeather) ☀️")
+case "snow":
+    print("Stay home today because of \(currentWeather) ❄️")
+case "rain":
+    print("GRAB AN UMBRELLA ELLA ELLA ☔️")
+default:
+    print("who knows?! Not me!")
+}
+```
 ***
 ## Question 6
 
